@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<SpriteContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Sprites>
+    <Sprite Sprite_Name="Menus_0" Rect_Left="523" Rect_Top="57" Rect_Right="778" Rect_Bottom="278" Texture_Name="Menus.png" />
+  </Sprites>
+</SpriteContainer>

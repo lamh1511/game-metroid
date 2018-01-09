@@ -1,0 +1,95 @@
+﻿  ZoomerAnimation.cpp
+d:\directx\game\framework\metroidgamecontent\zoomeranimation.h(2): fatal error C1083: Cannot open include file: 'GameFramework\GameComponent\AnimationController.h': No such file or directory
+  Zoomer.cpp
+d:\directx\game\framework\metroidgamecontent\zoomer.h(2): fatal error C1083: Cannot open include file: 'GameFramework\GameObject\GameObject.h': No such file or directory
+  WindowsTime.cpp
+d:\directx\game\framework\core\system\time\windowstime.h(2): fatal error C1083: Cannot open include file: 'Core\System\System.h': No such file or directory
+  Utilities.cpp
+  SkreeBall.cpp
+d:\directx\game\framework\metroidgamecontent\skreeball.h(2): fatal error C1083: Cannot open include file: 'GameFramework\GameObject\GameObject.h': No such file or directory
+  SamusDamage.cpp
+d:\directx\game\framework\metroidgamecontent\samusdamage.h(2): fatal error C1083: Cannot open include file: 'GameFramework\GameObject\GameObject.h': No such file or directory
+  Spawner.cpp
+d:\directx\game\framework\metroidgamecontent\spawner.h(2): fatal error C1083: Cannot open include file: 'GameFramework\GameObject\GameObject.h': No such file or directory
+  RioAnimation.cpp
+d:\directx\game\framework\metroidgamecontent\rioanimation.h(2): fatal error C1083: Cannot open include file: 'GameFramework\GameComponent\AnimationController.h': No such file or directory
+  Rio.cpp
+d:\directx\game\framework\metroidgamecontent\rio.h(2): fatal error C1083: Cannot open include file: 'GameFramework\GameObject\GameObject.h': No such file or directory
+  SkreeAnimation.cpp
+d:\directx\game\framework\metroidgamecontent\skreeanimation.h(2): fatal error C1083: Cannot open include file: 'GameFramework\GameComponent\AnimationController.h': No such file or directory
+  Room.cpp
+d:\directx\game\framework\metroidgamecontent\room.h(2): fatal error C1083: Cannot open include file: 'GameFramework\GameObject\GameObject.h': No such file or directory
+  Skree.cpp
+d:\directx\game\framework\metroidgamecontent\skree.h(2): fatal error C1083: Cannot open include file: 'GameFramework\GameObject\GameObject.h': No such file or directory
+  tinyxml2.cpp
+d:\directx\game\framework\resourcesloader\tinyxml2\tinyxml2.cpp(2421): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  PortalEntrance.cpp
+d:\directx\game\framework\metroidgamecontent\portalentrance.h(2): fatal error C1083: Cannot open include file: 'GameFramework\GameObject\GameObject.h': No such file or directory
+  Portal.cpp
+d:\directx\game\framework\metroidgamecontent\portal.h(2): fatal error C1083: Cannot open include file: 'GameFramework\GameObject\GameObject.h': No such file or directory
+  SimulatePhysics.cpp
+d:\directx\game\framework\gameframework\gamecomponent\simulatephysics.h(2): fatal error C1083: Cannot open include file: 'GameFramework\GameComponent\Component.h': No such file or directory
+  Main.cpp
+d:\directx\game\framework\metroidmain\main.cpp(1): fatal error C1083: Cannot open include file: 'Main\Game.h': No such file or directory
+  MetroidScene.cpp
+d:\directx\game\framework\metroidgamecontent\metroidscene.h(2): fatal error C1083: Cannot open include file: 'GameFramework\Scene\Scene.h': No such file or directory
+  MetroidContent.cpp
+d:\directx\game\framework\metroidgamecontent\metroidcontent.h(2): fatal error C1083: Cannot open include file: 'GameFramework\GameContent\GameContent.h': No such file or directory
+  MetroidCharacter.cpp
+d:\directx\game\framework\metroidgamecontent\metroidcharacter.h(2): fatal error C1083: Cannot open include file: 'GameFramework\GameObject\GameObject.h': No such file or directory
+  Generating Code...
+  Compiling...
+  Time.cpp
+d:\directx\game\framework\gameframework\time.cpp(2): fatal error C1083: Cannot open include file: 'Main\GameSystem.h': No such file or directory
+  Texture.cpp
+d:\directx\game\framework\gameframework\gamecontent\texture.h(2): fatal error C1083: Cannot open include file: 'GameFramework\Object.h': No such file or directory
+  SpriteRenderer.cpp
+d:\directx\game\framework\gameframework\gamecomponent\spriterenderer.h(2): fatal error C1083: Cannot open include file: 'GameFramework\GameComponent\Component.h': No such file or directory
+  Sprite.cpp
+d:\directx\game\framework\gameframework\gamecontent\sprite.h(2): fatal error C1083: Cannot open include file: 'GameFramework\Object.h': No such file or directory
+  System.cpp
+  Object.cpp
+d:\directx\game\framework\gameframework\object.h(2): fatal error C1083: Cannot open include file: 'Utilities\Utilities.h': No such file or directory
+  Scene.cpp
+d:\directx\game\framework\gameframework\scene\scene.h(2): fatal error C1083: Cannot open include file: 'GameFramework\Object.h': No such file or directory
+  SystemManager.cpp
+d:\directx\game\framework\core\systemmanager\systemmanager.h(5): fatal error C1083: Cannot open include file: 'Core\System\Graphics\GraphicsD3D9.h': No such file or directory
+  Game.cpp
+d:\directx\game\framework\main\game.cpp(2): fatal error C1083: Cannot open include file: 'GameFramework\Scene\Scene.h': No such file or directory
+  GameSystem.cpp
+d:\directx\game\framework\main\gamesystem.h(2): fatal error C1083: Cannot open include file: 'Utilities\Utilities.h': No such file or directory
+  Input.cpp
+d:\directx\game\framework\gameframework\input.cpp(2): fatal error C1083: Cannot open include file: 'Main\GameSystem.h': No such file or directory
+  GameObject.cpp
+d:\directx\game\framework\gameframework\gameobject\gameobject.h(2): fatal error C1083: Cannot open include file: 'GameFramework\Object.h': No such file or directory
+  GameWindow.cpp
+  KeyboardWindows.cpp
+d:\directx\game\framework\core\system\keyboard\keyboardwindows.h(2): fatal error C1083: Cannot open include file: 'Core\System\System.h': No such file or directory
+  GraphicsD3D9.cpp
+d:\directx\game\framework\core\system\graphics\graphicsd3d9.h(2): fatal error C1083: Cannot open include file: 'Core\System\System.h': No such file or directory
+  GameContent.cpp
+d:\directx\game\framework\gameframework\gamecontent\gamecontent.h(2): fatal error C1083: Cannot open include file: 'Utilities\Utilities.h': No such file or directory
+  Component.cpp
+d:\directx\game\framework\gameframework\gamecomponent\component.h(2): fatal error C1083: Cannot open include file: 'GameFramework\Object.h': No such file or directory
+  AnimationController.cpp
+d:\directx\game\framework\gameframework\gamecomponent\animationcontroller.h(2): fatal error C1083: Cannot open include file: 'GameFramework\GameComponent\Component.h': No such file or directory
+  Animation.cpp
+d:\directx\game\framework\gameframework\gamecontent\animation.h(2): fatal error C1083: Cannot open include file: 'GameFramework\Object.h': No such file or directory
+  CameraComponent.cpp
+d:\directx\game\framework\gameframework\gamecomponent\cameracomponent.h(2): fatal error C1083: Cannot open include file: 'GameFramework\GameComponent\Component.h': No such file or directory
+  Generating Code...
+  Compiling...
+  MainCamera.cpp
+d:\directx\game\framework\metroidgamecontent\maincamera.h(2): fatal error C1083: Cannot open include file: 'GameFramework\GameObject\GameObject.h': No such file or directory
+  SamusAnimation.cpp
+d:\directx\game\framework\metroidgamecontent\samusanimation.h(2): fatal error C1083: Cannot open include file: 'GameFramework\GameComponent\AnimationController.h': No such file or directory
+  CollisionBox.cpp
+  MaruMari.cpp
+d:\directx\game\framework\metroidgamecontent\marumari.h(2): fatal error C1083: Cannot open include file: 'GameFramework\GameObject\GameObject.h': No such file or directory
+  QuadTree.cpp
+d:\directx\game\framework\metroidgamecontent\quadtree.h(2): fatal error C1083: Cannot open include file: 'Utilities\Utilities.h': No such file or directory
+  EnergyBall.cpp
+d:\directx\game\framework\metroidgamecontent\energyball.h(2): fatal error C1083: Cannot open include file: 'GameFramework\GameObject\GameObject.h': No such file or directory
+  Explosion.cpp
+d:\directx\game\framework\metroidgamecontent\explosion.h(2): fatal error C1083: Cannot open include file: 'GameFramework\GameObject\GameObject.h': No such file or directory
+  Generating Code...

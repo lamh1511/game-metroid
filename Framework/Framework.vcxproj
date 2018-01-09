@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameOverScreen.h" />
+    <ClInclude Include="MetroidGameContent\EN_Rocket_HUD.h" />
+    <ClInclude Include="MetroidGameContent\Destructible.h" />
+    <ClInclude Include="MetroidGameContent\Items.h" />
+    <ClInclude Include="MetroidGameContent\Bomb.h" />
+    <ClInclude Include="MetroidGameContent\Bumerang.h" />
+    <ClInclude Include="MetroidGameContent\BumerangAnimation.h" />
+    <ClInclude Include="MetroidGameContent\Enemy.h" />
+    <ClInclude Include="MetroidGameContent\Explosion.h" />
+    <ClInclude Include="MetroidGameContent\EnergyBall.h" />
+    <ClInclude Include="MetroidGameContent\Kraid.h" />
+    <ClInclude Include="MetroidGameContent\KraidAnimation.h" />
+    <ClInclude Include="MetroidGameContent\KraidBullet.h" />
+    <ClInclude Include="MetroidGameContent\QuadTree.h" />
+    <ClInclude Include="MetroidGameContent\MaruMari.h" />
+    <ClInclude Include="GameFramework\GameContent\CollisionBox.h" />
+    <ClInclude Include="MetroidGameContent\Ridley.h" />
+    <ClInclude Include="MetroidGameContent\RidleyAnimation.h" />
+    <ClInclude Include="MetroidGameContent\RidleyBullet.h" />
+    <ClInclude Include="MetroidGameContent\RidleyBulletAnimation.h" />
+    <ClInclude Include="MetroidGameContent\Ripper.h" />
+    <ClInclude Include="MetroidGameContent\SamusAnimation.h" />
+    <ClInclude Include="MetroidGameContent\MainCamera.h" />
+    <ClInclude Include="GameFramework\GameComponent\CameraComponent.h" />
+    <ClInclude Include="GameFramework\GameContent\Animation.h" />
+    <ClInclude Include="GameFramework\GameComponent\AnimationController.h" />
+    <ClInclude Include="GameFramework\GameComponent\Component.h" />
+    <ClInclude Include="Core\Interface\IGraphics.h" />
+    <ClInclude Include="Core\Interface\IKeyboard.h" />
+    <ClInclude Include="Core\Interface\ITime.h" />
+    <ClInclude Include="GameFramework\GameContent\GameContent.h" />
+    <ClInclude Include="Core\System\Graphics\GraphicsD3D9.h" />
+    <ClInclude Include="Core\System\Keyboard\KeyboardWindows.h" />
+    <ClInclude Include="Core\System\Graphics\GameWindow.h" />
+    <ClInclude Include="GameFramework\GameObject\GameObject.h" />
+    <ClInclude Include="GameFramework\Input.h" />
+    <ClInclude Include="Main\GameSystem.h" />
+    <ClInclude Include="Main\Game.h" />
+    <ClInclude Include="Core\SystemManager\SystemManager.h" />
+    <ClInclude Include="GameFramework\Scene\Scene.h" />
+    <ClInclude Include="GameFramework\Object.h" />
+    <ClInclude Include="Core\System\System.h" />
+    <ClInclude Include="GameFramework\GameContent\Sprite.h" />
+    <ClInclude Include="GameFramework\GameComponent\SpriteRenderer.h" />
+    <ClInclude Include="GameFramework\GameContent\Texture.h" />
+    <ClInclude Include="GameFramework\Time.h" />
+    <ClInclude Include="MetroidGameContent\MetroidCharacter.h" />
+    <ClInclude Include="MetroidGameContent\MetroidContent.h" />
+    <ClInclude Include="MetroidGameContent\MetroidScene.h" />
+    <ClInclude Include="GameFramework\GameComponent\SimulatePhysics.h" />
+    <ClInclude Include="MetroidGameContent\Portal.h" />
+    <ClInclude Include="MetroidGameContent\PortalEntrance.h" />
+    <ClInclude Include="MetroidGameContent\Waver.h" />
+    <ClInclude Include="MetroidGameContent\Zeb.h" />
+    <ClInclude Include="MetroidGameContent\Zoomer.h" />
+    <ClInclude Include="ResourcesLoader\Rapidjson\allocators.h" />
+    <ClInclude Include="ResourcesLoader\Rapidjson\document.h" />
+    <ClInclude Include="ResourcesLoader\Rapidjson\encodedstream.h" />
+    <ClInclude Include="ResourcesLoader\Rapidjson\encodings.h" />
+    <ClInclude Include="ResourcesLoader\Rapidjson\error\en.h" />
+    <ClInclude Include="ResourcesLoader\Rapidjson\error\error.h" />
+    <ClInclude Include="ResourcesLoader\Rapidjson\filereadstream.h" />
+    <ClInclude Include="ResourcesLoader\Rapidjson\filewritestream.h" />
+    <ClInclude Include="ResourcesLoader\Rapidjson\fwd.h" />
+    <ClInclude Include="ResourcesLoader\Rapidjson\internal\biginteger.h" />
+    <ClInclude Include="ResourcesLoader\Rapidjson\internal\diyfp.h" />
+    <ClInclude Include="ResourcesLoader\Rapidjson\internal\dtoa.h" />
+    <ClInclude Include="ResourcesLoader\Rapidjson\internal\ieee754.h" />
+    <ClInclude Include="ResourcesLoader\Rapidjson\internal\itoa.h" />
+    <ClInclude Include="ResourcesLoader\Rapidjson\internal\meta.h" />
+    <ClInclude Include="ResourcesLoader\Rapidjson\internal\pow10.h" />
+    <ClInclude Include="ResourcesLoader\Rapidjson\internal\regex.h" />
+    <ClInclude Include="ResourcesLoader\Rapidjson\internal\stack.h" />
+    <ClInclude Include="ResourcesLoader\Rapidjson\internal\strfunc.h" />
+    <ClInclude Include="ResourcesLoader\Rapidjson\internal\strtod.h" />
+    <ClInclude Include="ResourcesLoader\Rapidjson\internal\swap.h" />
+    <ClInclude Include="ResourcesLoader\Rapidjson\istreamwrapper.h" />
+    <ClInclude Include="ResourcesLoader\Rapidjson\memorybuffer.h" />
+    <ClInclude Include="ResourcesLoader\Rapidjson\memorystream.h" />
+    <ClInclude Include="ResourcesLoader\Rapidjson\msinttypes\inttypes.h" />
+    <ClInclude Include="ResourcesLoader\Rapidjson\msinttypes\stdint.h" />
+    <ClInclude Include="ResourcesLoader\Rapidjson\ostreamwrapper.h" />
+    <ClInclude Include="ResourcesLoader\Rapidjson\pointer.h" />
+    <ClInclude Include="ResourcesLoader\Rapidjson\prettywriter.h" />
+    <ClInclude Include="ResourcesLoader\Rapidjson\rapidjson.h" />
+    <ClInclude Include="ResourcesLoader\Rapidjson\reader.h" />
+    <ClInclude Include="ResourcesLoader\Rapidjson\schema.h" />
+    <ClInclude Include="ResourcesLoader\Rapidjson\stream.h" />
+    <ClInclude Include="ResourcesLoader\Rapidjson\stringbuffer.h" />
+    <ClInclude Include="ResourcesLoader\Rapidjson\writer.h" />
+    <ClInclude Include="ResourcesLoader\TinyXML2\tinyxml2.h" />
+    <ClInclude Include="MetroidGameContent\Skree.h" />
+    <ClInclude Include="MetroidGameContent\Room.h" />
+    <ClInclude Include="MetroidGameContent\SkreeAnimation.h" />
+    <ClInclude Include="MetroidGameContent\Rio.h" />
+    <ClInclude Include="MetroidGameContent\RioAnimation.h" />
+    <ClInclude Include="MetroidGameContent\Spawner.h" />
+    <ClInclude Include="MetroidGameContent\SamusDamage.h" />
+    <ClInclude Include="MetroidGameContent\SkreeBall.h" />
+    <ClInclude Include="MetroidGameContent\SamusWaveBeam.h" />
+    <ClInclude Include="Utilities\Utilities.h" />
+    <ClInclude Include="Core\System\Time\WindowsTime.h" />
+    <ClInclude Include="MetroidGameContent\ZoomerAnimation.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MetroidGameContent\GameOverScreen.cpp" />
+    <ClCompile Include="MetroidGameContent\EN_Rocket_HUD.cpp" />
+    <ClCompile Include="MetroidGameContent\Destructible.cpp" />
+    <ClCompile Include="MetroidGameContent\Items.cpp" />
+    <ClCompile Include="MetroidGameContent\Bomb.cpp" />
+    <ClCompile Include="MetroidGameContent\Bumerang.cpp" />
+    <ClCompile Include="MetroidGameContent\BumerangAnimation.cpp" />
+    <ClCompile Include="MetroidGameContent\Enemy.cpp" />
+    <ClCompile Include="MetroidGameContent\Explosion.cpp" />
+    <ClCompile Include="MetroidGameContent\EnergyBall.cpp" />
+    <ClCompile Include="MetroidGameContent\Kraid.cpp" />
+    <ClCompile Include="MetroidGameContent\KraidAnimation.cpp" />
+    <ClCompile Include="MetroidGameContent\KraidBullet.cpp" />
+    <ClCompile Include="MetroidGameContent\QuadTree.cpp" />
+    <ClCompile Include="MetroidGameContent\MaruMari.cpp" />
+    <ClCompile Include="GameFramework\GameContent\CollisionBox.cpp" />
+    <ClCompile Include="MetroidGameContent\Ridley.cpp" />
+    <ClCompile Include="MetroidGameContent\RidleyAnimation.cpp" />
+    <ClCompile Include="MetroidGameContent\RidleyBullet.cpp" />
+    <ClCompile Include="MetroidGameContent\RidleyBulletAnimation.cpp" />
+    <ClCompile Include="MetroidGameContent\Ripper.cpp" />
+    <ClCompile Include="MetroidGameContent\SamusAnimation.cpp" />
+    <ClCompile Include="MetroidGameContent\MainCamera.cpp" />
+    <ClCompile Include="GameFramework\GameComponent\CameraComponent.cpp" />
+    <ClCompile Include="GameFramework\GameContent\Animation.cpp" />
+    <ClCompile Include="GameFramework\GameComponent\AnimationController.cpp" />
+    <ClCompile Include="GameFramework\GameComponent\Component.cpp" />
+    <ClCompile Include="GameFramework\GameContent\GameContent.cpp" />
+    <ClCompile Include="Core\System\Graphics\GraphicsD3D9.cpp" />
+    <ClCompile Include="Core\System\Keyboard\KeyboardWindows.cpp" />
+    <ClCompile Include="Core\System\Graphics\GameWindow.cpp" />
+    <ClCompile Include="GameFramework\GameObject\GameObject.cpp" />
+    <ClCompile Include="GameFramework\Input.cpp" />
+    <ClCompile Include="Main\GameSystem.cpp" />
+    <ClCompile Include="Main\Game.cpp" />
+    <ClCompile Include="Core\SystemManager\SystemManager.cpp" />
+    <ClCompile Include="GameFramework\Scene\Scene.cpp" />
+    <ClCompile Include="GameFramework\Object.cpp" />
+    <ClCompile Include="Core\System\System.cpp" />
+    <ClCompile Include="GameFramework\GameContent\Sprite.cpp" />
+    <ClCompile Include="GameFramework\GameComponent\SpriteRenderer.cpp" />
+    <ClCompile Include="GameFramework\GameContent\Texture.cpp" />
+    <ClCompile Include="GameFramework\Time.cpp" />
+    <ClCompile Include="MetroidGameContent\MetroidCharacter.cpp" />
+    <ClCompile Include="MetroidGameContent\MetroidContent.cpp" />
+    <ClCompile Include="MetroidGameContent\MetroidScene.cpp" />
+    <ClCompile Include="MetroidGameContent\Waver.cpp" />
+    <ClCompile Include="MetroidGameContent\Zeb.cpp" />
+    <ClCompile Include="MetroidGameContent\Zoomer.cpp" />
+    <ClCompile Include="MetroidMain\Main.cpp" />
+    <ClCompile Include="GameFramework\GameComponent\SimulatePhysics.cpp" />
+    <ClCompile Include="MetroidGameContent\Portal.cpp" />
+    <ClCompile Include="MetroidGameContent\PortalEntrance.cpp" />
+    <ClCompile Include="ResourcesLoader\TinyXML2\tinyxml2.cpp" />
+    <ClCompile Include="MetroidGameContent\Skree.cpp" />
+    <ClCompile Include="MetroidGameContent\Room.cpp" />
+    <ClCompile Include="MetroidGameContent\SkreeAnimation.cpp" />
+    <ClCompile Include="MetroidGameContent\Rio.cpp" />
+    <ClCompile Include="MetroidGameContent\RioAnimation.cpp" />
+    <ClCompile Include="MetroidGameContent\Spawner.cpp" />
+    <ClCompile Include="MetroidGameContent\SamusDamage.cpp" />
+    <ClCompile Include="MetroidGameContent\SkreeBall.cpp" />
+    <ClCompile Include="MetroidGameContent\SamusWaveBeam.cpp" />
+    <ClCompile Include="Utilities\Utilities.cpp" />
+    <ClCompile Include="Core\System\Time\WindowsTime.cpp" />
+    <ClCompile Include="MetroidGameContent\ZoomerAnimation.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Brinstar.png" />
+    <Image Include="TileSet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="CollisionBoxes.xml" />
+    <Xml Include="MetroidLevel.xml" />
+    <Xml Include="Texture.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="TiledBackground.json" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{8BF10DDF-C2A3-4B38-9696-BBACB5BC1C55}</ProjectGuid>
+    <RootNamespace>Framework</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)\bin\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)\bin\$(ProjectName)\$(Configuration)\intermediate\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)\bin\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)\bin\$(ProjectName)\$(Configuration)\intermediate\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)\bin\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)\bin\$(ProjectName)\$(Configuration)\intermediate\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)\bin\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)\bin\$(ProjectName)\$(Configuration)\intermediate\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies);d3d9.lib;d3dx9.lib</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>($ProjectDir)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies);d3d9.lib;d3dx9.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies);d3d9.lib;d3dx9.lib</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>($ProjectDir)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies);d3d9.lib;d3dx9.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

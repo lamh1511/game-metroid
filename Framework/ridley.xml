@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<SpriteContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Sprites>
+		<!-- Ridley Body -->
+		<Sprite Sprite_Name="tileridley_0" Rect_Left="0" Rect_Top="6" Rect_Right="31" Rect_Bottom="46" Texture_Name="ridley.png"/>
+		<Sprite Sprite_Name="tileridley_1" Rect_Left="33" Rect_Top="6" Rect_Right="64" Rect_Bottom="46" Texture_Name="ridley.png"/>
+		<Sprite Sprite_Name="tileridley_2" Rect_Left="66" Rect_Top="0" Rect_Right="97" Rect_Bottom="46" Texture_Name="ridley.png"/>
+		<Sprite Sprite_Name="tileridley_3" Rect_Left="99" Rect_Top="0" Rect_Right="130" Rect_Bottom="46" Texture_Name="ridley.png"/>
+		<!-- Boss Bullet -->
+		<Sprite Sprite_Name="tileridley_4" Rect_Left="132" Rect_Top="38" Rect_Right="139" Rect_Bottom="46" Texture_Name="ridley.png"/>
+		<Sprite Sprite_Name="tileridley_5" Rect_Left="141" Rect_Top="38" Rect_Right="148" Rect_Bottom="46" Texture_Name="ridley.png"/>
+		<Sprite Sprite_Name="tileridley_6" Rect_Left="150" Rect_Top="38" Rect_Right="157" Rect_Bottom="46" Texture_Name="ridley.png"/>
+		<Sprite Sprite_Name="tileridley_7" Rect_Left="159" Rect_Top="38" Rect_Right="166" Rect_Bottom="46" Texture_Name="ridley.png"/>
+		<Sprite Sprite_Name="tileridley_8" Rect_Left="168" Rect_Top="38" Rect_Right="175" Rect_Bottom="46" Texture_Name="ridley.png"/>
+		<Sprite Sprite_Name="tileridley_9" Rect_Left="177" Rect_Top="38" Rect_Right="184" Rect_Bottom="46" Texture_Name="ridley.png"/>
+		<Sprite Sprite_Name="tileridley_10" Rect_Left="186" Rect_Top="38" Rect_Right="193" Rect_Bottom="46" Texture_Name="ridley.png"/>
+		<Sprite Sprite_Name="tileridley_11" Rect_Left="195" Rect_Top="38" Rect_Right="202" Rect_Bottom="46" Texture_Name="ridley.png"/>
+		<!-- Damaged Ridley -->
+		<Sprite Sprite_Name="tileridley_12" Rect_Left="0" Rect_Top="53" Rect_Right="31" Rect_Bottom="93" Texture_Name="ridley.png"/>
+		<Sprite Sprite_Name="tileridley_13" Rect_Left="33" Rect_Top="53" Rect_Right="64" Rect_Bottom="93" Texture_Name="ridley.png"/>
+		<Sprite Sprite_Name="tileridley_14" Rect_Left="66" Rect_Top="47" Rect_Right="97" Rect_Bottom="93" Texture_Name="ridley.png"/>
+		<Sprite Sprite_Name="tileridley_15" Rect_Left="99" Rect_Top="47" Rect_Right="130" Rect_Bottom="93" Texture_Name="ridley.png"/>
+		<!-- Dead Explosion-->
+		<Sprite Sprite_Name="tileridley_16" Rect_Left="132" Rect_Top="47" Rect_Right="150" Rect_Bottom="76" Texture_Name="ridley.png"/>
+		<Sprite Sprite_Name="tileridley_17" Rect_Left="154" Rect_Top="47" Rect_Right="181" Rect_Bottom="76" Texture_Name="ridley.png"/>
+		<Sprite Sprite_Name="tileridley_18" Rect_Left="129" Rect_Top="77" Rect_Right="162" Rect_Bottom="106" Texture_Name="ridley.png"/>
+	</Sprites>
+</SpriteContainer>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<SpriteContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Sprites>
+		<!-- Body -->
+		<Sprite Sprite_Name="tilekraid_0" Rect_Left="0" Rect_Top="0" Rect_Right="24" Rect_Bottom="32" Texture_Name="kraid.png"/>
+		<Sprite Sprite_Name="tilekraid_1" Rect_Left="32" Rect_Top="2" Rect_Right="56" Rect_Bottom="33" Texture_Name="kraid.png"/>
+		<Sprite Sprite_Name="tilekraid_2" Rect_Left="0" Rect_Top="41" Rect_Right="24" Rect_Bottom="73" Texture_Name="kraid.png"/>
+		<Sprite Sprite_Name="tilekraid_3" Rect_Left="32" Rect_Top="43" Rect_Right="56" Rect_Bottom="74" Texture_Name="kraid.png"/>
+		<Sprite Sprite_Name="tilekraid_4" Rect_Left="0" Rect_Top="86" Rect_Right="24" Rect_Bottom="118" Texture_Name="kraid.png"/>
+		<Sprite Sprite_Name="tilekraid_5" Rect_Left="32" Rect_Top="88" Rect_Right="56" Rect_Bottom="119" Texture_Name="kraid.png"/>
+		<!-- Bullet -->
+		<Sprite Sprite_Name="tilekraid_9" Rect_Left="67" Rect_Top="3" Rect_Right="75" Rect_Bottom="10" Texture_Name="kraid.png"/>
+		<Sprite Sprite_Name="tilekraid_7" Rect_Left="66" Rect_Top="17" Rect_Right="74" Rect_Bottom="24" Texture_Name="kraid.png"/>
+		<Sprite Sprite_Name="tilekraid_8" Rect_Left="81" Rect_Top="4" Rect_Right="88" Rect_Bottom="12" Texture_Name="kraid.png"/>
+		<Sprite Sprite_Name="tilekraid_6" Rect_Left="80" Rect_Top="18" Rect_Right="87" Rect_Bottom="26" Texture_Name="kraid.png"/>
+		<!-- Bumerang -->
+		<Sprite Sprite_Name="tilekraid_10" Rect_Left="94" Rect_Top="6" Rect_Right="102" Rect_Bottom="9" Texture_Name="kraid.png"/>
+	</Sprites>
+</SpriteContainer>

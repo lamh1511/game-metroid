@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<BoxesContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Boxes>
+    <Box Box_Name="Box1" x="40.44" y="77.45" Width="6.95" Height="1.04" />
+    <Box Box_Name="Box2" x="41.06" y="76" Width="81.48" Height="1.88" />
+    <Box Box_Name="Box3" x="38.04" y="82.55" Width="1.8" Height="4.91" />
+    <Box Box_Name="Box4" x="43.01" y="82.5" Width="1.77" Height="4.83" />
+    <Box Box_Name="Box5" x="29.9" y="80" Width="3.74" Height="3.87" />
+    <Box Box_Name="Box6" x="28.95" y="81.98" Width="3.93" Height="3.93" />
+    <Box Box_Name="Box7" x="27.92" y="83.96" Width="3.94" Height="3.83" />
+    <Box Box_Name="Box8" x="22.46" y="78.38" Width="0.91" Height="3.03" />
+    <Box Box_Name="Box9" x="19.98" y="77.46" Width="1.89" Height="0.91" />
+    <Box Box_Name="Box10" x="19.48" y="78.47" Width="0.92" Height="0.9" />
+    <Box Box_Name="Box11" x="24.98" y="77.45" Width="2.01" Height="0.98" />
+    <Box Box_Name="Box12" x="25.46" y="78.44" Width="1" Height="1" />
+    <Box Box_Name="Box13" x="80.87" y="78.98" Width="5.83" Height="4.04" />
+    <Box Box_Name="Box14" x="87.51" y="81.46" Width="27" Height="0.92" />
+    <Box Box_Name="Box15" x="88.02" y="83.51" Width="8.07" Height="0.84" />
+    <Box Box_Name="GameObject" x="79.9" y="87.48" Width="3.91" Height="4.92" />
+    <Box Box_Name="GameObject (1)" x="87.24" y="89.08" Width="149.18" Height="1.6" />
+    <Box Box_Name="GameObject (2)" x="94.91" y="78.6" Width="5.86" Height="4.73" />
+    <Box Box_Name="GameObject (3)" x="95.93" y="86.85" Width="3.94" Height="3.76" />
+    <Box Box_Name="GameObject (4)" x="128.83" y="75.96" Width="65.22" Height="1.83" />
+    <Box Box_Name="GameObject (5)" x="135.89" y="84" Width="7.75" Height="11.6" />
+    <Box Box_Name="GameObject (6)" x="159.38" y="81.44" Width="10.92" Height="0.93" />
+    <Box Box_Name="GameObject (7)" x="159.96" y="79.07" Width="3.85" Height="3.98" />
+    <Box Box_Name="GameObject (8)" x="159.96" y="87.44" Width="3.85" Height="4.82" />
+    <Box Box_Name="GameObject (9)" x="8.15" y="82.47" Width="15.58" Height="14.55" />
+    <Box Box_Name="Box2 (1)" x="127.94" y="76" Width="67.83" Height="1.88" />
+  </Boxes>
+</BoxesContainer>
